@@ -1,0 +1,58 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Specify the font family (Arial) and a generic font family (sans-serif) as a fallback */
+  font-size: 16px; /* Set the font size to 16 pixels */
+  color: #333; /* Set the text color to a shade of gray (#333) */
+}
+.header{
+  display: flex;
+  margin-top: 1%;
+  height: 5%;
+}
+.heading{
+  margin-left: 20%;
+  
+}
+.heading  h3{
+  margin:3% 0%;
+  color:rgb(104, 97, 97);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+}
+.heading  h2{
+  margin: 5% 3%;
+}
+
+.menu_items{
+  display: flex;
+  list-style: none;
+  }
+
+.menu{
+  margin-left: 30%;
+}
+
+.menu li{
+  padding:10% 10%;
+}
+.bg{
+  width:100%;
+  height: 100%;
+  margin-top: 20px;
+}
+.opening_page{
+  height: 500px;
+  width: 100%;
+}
+.text-overlay {
+  align-items: center;
+  position: absolute;
+  top: 197px;
+  left: 452px;
+  font-size: 37px;
+  color: white;
+  
+}
+.text-overlay h1{
+  margin: 1px 10px;
+  
+}
