@@ -44,15 +44,30 @@ body {
   width: 100%;
 }
 .text-overlay {
-  align-items: center;
-  position: absolute;
-  top: 197px;
-  left: 452px;
-  font-size: 37px;
-  color: white;
+  
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+
+
+
+
+    
+    color: white;
+    font-size: 90px;
+
   
 }
-.text-overlay h1{
-  margin: 1px 10px;
+.text-overlay1 {
   
+  position: absolute;
+  top: 52%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 90px;
+
+
 }

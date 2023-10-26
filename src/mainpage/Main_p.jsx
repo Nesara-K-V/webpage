@@ -8,10 +8,10 @@ export const Main_p = () => {
         className='bg'>
           
         </img>
-        <div className='text-overlay'>
-        <h1 >HIGHEST</h1>
-        <h1 >POTENTIAL</h1>
-        </div>
+        <div >
+        <h1 className='text-overlay'>HIGHEST</h1>
+        <h1 className='text-overlay1'>POTENTIAL</h1>
+      </div>
        
     </div>
   )
