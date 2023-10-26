@@ -5,7 +5,10 @@ import { Main_p } from './mainpage/Main_p';
 
 function App() {
   return (
-    <><Header_bar />
+
+    <>
+    <h1>NESARA</h1>
+    <Header_bar />
     <Main_p /></>
     
   );
