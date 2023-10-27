@@ -1,6 +1,9 @@
 import React from 'react'
 
 export const Header_bar = () => {
+  const handleClick=()=>{
+    console.log("item clicked")
+  }
   return (
     <div className='header'>
       <div className='heading'>
@@ -9,9 +12,10 @@ export const Header_bar = () => {
       </div>
       <div className='menu' >
         <ul className='menu_items'>
-          <li>HOME</li>
-          <li>ABOUT</li>
-          <li>CONTACT</li>
+          
+          <li onClick={handleClick}>HOME</li>
+          <li onClick={handleClick}> ABOUT</li>
+          <li onClick={handleClick}>CONTACT</li>
         </ul>
       </div>
       </div>
