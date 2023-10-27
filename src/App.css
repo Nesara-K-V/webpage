@@ -4,9 +4,11 @@ body {
   color: #333; /* Set the text color to a shade of gray (#333) */
 }
 .header{
+  
   display: flex;
   margin-top: 1%;
   height: 5%;
+  
 }
 .heading{
   margin-left: 20%;
@@ -42,27 +44,19 @@ body {
   width:100%;
   height: 100%;
   margin-top: 20px;
+  
 }
 .opening_page{
   height: 500px;
   width: 100%;
 }
 .text-overlay {
-  
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-
-
-
-
-
-    
-    color: white;
-    font-size: 90px;
-
-  
+  position: absolute;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 90px;
 }
 .text-overlay1 {
   
@@ -72,6 +66,56 @@ body {
   transform: translate(-50%, -50%);
   color: white;
   font-size: 90px;
-
+}
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .header{
+  display: block;
+  width:100%;
+  }
+  .opening_page{
+    width: 100%;
+  }
+  .header h2{
+    margin-bottom: 0%;
+  }
+  .heading{
+    left:50%;
+  }
+  .menu_items{
+    margin-left: 0%;
+    display: flex;
+    list-style: none;
+  }
+  .menu{
+    width:80%;
+    margin-left: 5%;
+  }
+    
+  .menu li{
+      padding:2% 2%;
+      margin: 0% 3%;
+  }
+  .bg{
+    width:100%;
+    margin-top:1px;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 33%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%;
+  }
+  .text-overlay1 {
+    
+    position: absolute;
+    top: 38%;
+    left: 35%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 400%;
+  }
 
 }
+
